@@ -1,12 +1,76 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Titulo</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Portafolio</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.0/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
-    <h1>Cambio en H1</h1>
-    <h2>Cacmbio en H2</h2>
+
+  <!-- Barra de Navegación -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Mi Portafolio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#portfolio">Portafolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#education">Educación</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#experience">Experiencia</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Sección de Portafolio -->
+  <section id="portfolio" class="p-5 bg-light">
+    <div class="container">
+      <h2 class="text-center">Portafolio</h2>
+      <p class="text-center">Aquí se muestra mi trabajo más reciente.</p>
+      <!-- Aquí puedes agregar contenido de tu portafolio -->
+    </div>
+  </section>
+
+  <!-- Sección de Educación -->
+  <section id="education" class="p-5">
+    <div class="container">
+      <h2 class="text-center">Educación</h2>
+      <ul class="list-group">
+        <li class="list-group-item">Título 1 - Universidad X</li>
+        <li class="list-group-item">Título 2 - Universidad Y</li>
+        <!-- Agrega más títulos según sea necesario -->
+      </ul>
+    </div>
+  </section>
+
+  <!-- Sección de Experiencia -->
+  <section id="experience" class="p-5 bg-light">
+    <div class="container">
+      <h2 class="text-center">Experiencia</h2>
+      <ul class="list-group">
+        <li class="list-group-item">Puesto 1 - Compañía A</li>
+        <li class="list-group-item">Puesto 2 - Compañía B</li>
+        <!-- Agrega más experiencias según sea necesario -->
+      </ul>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center p-4">
+    <div class="container">
+      <p>&copy; 2024 Mi Portafolio. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.0/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
